@@ -1,6 +1,5 @@
 {
-  "name": "codex-server",
-  "private": true,
+  "name": "botify-backend",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
