@@ -14,8 +14,7 @@ body {
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
-
+  background: #000000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,6 +36,7 @@ body {
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
+  margin-top: 5rem;
 }
 
 /* hides scrollbar */
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: black;
 }
 
 .chat {
@@ -114,14 +114,17 @@ body {
 
 form {
   width: 100%;
-  max-width: 1280px;
+  max-width: 986px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #1b1b1b;
 
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-bottom:7rem ;
+  border-radius: 11px;
+  border: 1px solid white;
 }
 
 textarea {
